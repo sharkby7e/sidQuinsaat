@@ -1,0 +1,27 @@
+{
+  "name": "sidquinsaat",
+  "version": "1.0.0",
+  "description": "A portfolio website built by sharkby7e",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "npx tailwindcss build -i ./src/css/tailwind.css -o ./dist/css/tailwind.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sharkby7e/sidQuinsaat.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sharkby7e/sidQuinsaat/issues"
+  },
+  "homepage": "https://github.com/sharkby7e/sidQuinsaat#readme",
+  "devDependencies": {
+    "tailwindcss": "^3.0.24"
+  },
+  "dependencies": {
+    "daisyui": "^2.15.0"
+  }
+}
