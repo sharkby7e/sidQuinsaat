@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title></title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link href="../dist/css/tailwind.css" rel="stylesheet" />
+    <!-- <script src="https://cdn.tailwindcss.com"></script> -->
+  </head>
+  <body class="font-mono">
+    <!-- <h1 class="text-3xl font-bold underline">Hello world!</h1> -->
+
+    <div
+      class="hero min-h-screen"
+      style="background-image: url(./img/glacier.jpg)"
+    >
+      <div class="hero-overlay bg-opacity-60"></div>
+      <div class="hero-content text-center text-neutral-content">
+        <div class="max-w-md">
+          <h1 class="mb-5 text-5xl font-bold">sharkby7e</h1>
+          <p class="mb-5">
+            A determined and eternal lover of learning. Looking to find the
+            answers hidden within the problems. Ravenously subsuming all that
+            they can into an ever-expanding library of tools, solutions, and
+            neat projects.
+          </p>
+        </div>
+      </div>
+    </div>
+    <!-- Begin Navbar -->
+    <div id="navbar" class="sticky top-0 navbar bg-neutral">
+      <div class="navbar-start">
+        <div class="dropdown">
+          <label tabindex="0" class="btn btn-ghost lg:hidden">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              class="h-5 w-5"
+              fill="none"
+              viewBox="0 0 24 24"
+              stroke="currentColor"
+            >
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="2"
+                d="M4 6h16M4 12h8m-8 6h16"
+              />
+            </svg>
+          </label>
+          <ul
+            tabindex="0"
+            class="menu menu-compact dropdown-content mt-3 p-2 shadow bg-base-100 rounded-box w-52"
+          >
+            <li><a href="https://github.com/sharkby7e" target="_blank">gitHub</a></li>
+            <li><a href="https://www.linkedin.com/in/sid-quinsaat-456b10143/" target="_blank">LinkedIn</a></li>
+            <li><a href="pdf link here" target="_blank">Resume</a></li>
+          </ul>
+        </div>
+        <a class="font-mono btn btn-ghost normal-case text-xl">sidQuinsaat</a>
+      </div>
+      <div class="navbar-end hidden lg:flex">
+        <ul class="menu menu-horizontal p-0">
+          <li><a href="https://github.com/sharkby7e" target="_blank">gitHub</a></li>
+          <li><a href="https://www.linkedin.com/in/sid-quinsaat-456b10143/" target="_blank">LinkedIn</a></li>
+          <li><a href="Resume PDF here" target="_blank">Resume</a></li>
+        </ul>
+      </div>
+      <!-- <div class="navbar-end"> -->
+      <!--   <a class="btn">Get started</a> -->
+      <!-- </div> -->
+    </div>
+    <!-- end navbar -->
+
+    <div
+      id="firstSec"
+      class="flex-col items-stretch h-screen bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500"
+    >
+      <h2 class="p-5 text-5xl">Portfolio</h2>
+      <section class="flex p-5 m-10 h-4/5 bg-neutral rounded-3xl">
+        <!-- beginning of carousel  -->
+        <div class="carousel w-full">
+          <div id="slide2" class="carousel-item w-full">
+            <div class="card w-full lg:card-side bg-base-100 shadow-xl">
+              <figure>
+                <img
+                  src="https://api.lorem.space/image/album?w=400&h=400"
+                  alt="Album"
+                />
+              </figure>
+              <div class="card-body">
+                <h2 class="card-title">New album is released!</h2>
+                <p>Click the button to listen on Spotiwhy app.</p>
+                <div class="card-actions justify-end">
+                  <button class="btn btn-primary">Listen</button>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div id="slide1" class="carousel-item w-full">
+            <div class="card w-full lg:card-side bg-base-100 shadow-xl">
+              <figure>
+                <img
+                  src="https://api.lorem.space/image/album?w=400&h=400"
+                  alt="Album"
+                />
+              </figure>
+              <div class="card-body">
+                <h2 class="card-title">New album is released!</h2>
+                <p>Click the button to listen on Spotiwhy app.</p>
+                <div class="card-actions justify-end">
+                  <button class="btn btn-primary">Listen</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- end of carousel -->
+      </section>
+    </div>
+  </body>
+  <!-- //jquery -->
+  <script
+    src="https://code.jquery.com/jquery-3.6.0.js"
+    integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk="
+    crossorigin="anonymous"
+  ></script>
+
+  <!-- //custom script -->
+  <script src="./js/index.js"></script>
+</html>
