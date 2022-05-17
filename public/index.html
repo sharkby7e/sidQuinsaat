@@ -27,10 +27,11 @@
         </div>
       </div>
     </div>
+
     <!-- Begin Navbar -->
     <div id="navbar" class="sticky top-0 navbar bg-neutral">
-      <div class="navbar-start">
-        <div class="dropdown">
+      <div class="z-50 navbar-start">
+        <div class="z-50 dropdown">
           <label tabindex="0" class="btn btn-ghost lg:hidden">
             <svg
               xmlns="http://www.w3.org/2000/svg"
@@ -49,71 +50,137 @@
           </label>
           <ul
             tabindex="0"
-            class="menu menu-compact dropdown-content mt-3 p-2 shadow bg-base-100 rounded-box w-52"
+            class="z-50 menu menu-compact dropdown-content mt-3 p-2 shadow bg-base-100 rounded-box w-52"
           >
-            <li><a href="https://github.com/sharkby7e" target="_blank">gitHub</a></li>
-            <li><a href="https://www.linkedin.com/in/sid-quinsaat-456b10143/" target="_blank">LinkedIn</a></li>
-            <li><a href="pdf link here" target="_blank">Resume</a></li>
+            <li class="z-50">
+              <a href="https://github.com/sharkby7e" target="_blank">gitHub</a>
+            </li>
+            <li class="z-50">
+              <a
+                href="https://www.linkedin.com/in/sid-quinsaat-456b10143/"
+                target="_blank"
+                >linkedIn</a
+              >
+            </li>
+            <li class="z-50">
+              <a href="./SQuinsaat - Resume.pdf" target="_blank">resume</a>
+            </li>
           </ul>
         </div>
         <a class="font-mono btn btn-ghost normal-case text-xl">sidQuinsaat</a>
       </div>
-      <div class="navbar-end hidden lg:flex">
-        <ul class="menu menu-horizontal p-0">
-          <li><a href="https://github.com/sharkby7e" target="_blank">gitHub</a></li>
-          <li><a href="https://www.linkedin.com/in/sid-quinsaat-456b10143/" target="_blank">LinkedIn</a></li>
-          <li><a href="Resume PDF here" target="_blank">Resume</a></li>
+      <div class="z-50 navbar-end hidden lg:flex">
+        <ul class="z-50 menu menu-horizontal p-0">
+          <li class="z-50">
+            <a href="https://github.com/sharkby7e" target="_blank">gitHub</a>
+          </li>
+          <li class="z-50">
+            <a
+              href="https://www.linkedin.com/in/sid-quinsaat-456b10143/"
+              target="_blank"
+              >linkedIn</a
+            >
+          </li class="z-50">
+          <li><a href="./SQuinsaat - Resume.pdf" target="_blank">resume</a></li>
         </ul>
       </div>
-      <!-- <div class="navbar-end"> -->
-      <!--   <a class="btn">Get started</a> -->
-      <!-- </div> -->
     </div>
     <!-- end navbar -->
 
+    <!-- second page -->
     <div
       id="firstSec"
       class="flex-col items-stretch h-screen bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500"
     >
       <h2 class="p-5 text-5xl">Portfolio</h2>
-      <section class="flex p-5 m-10 h-4/5 bg-neutral rounded-3xl">
+      <section class="flex-col p-5 m-10 h-4/5 bg-neutral rounded-3xl">
         <!-- beginning of carousel  -->
         <div class="carousel w-full">
-          <div id="slide2" class="carousel-item w-full">
+          <!-- first card  -->
+          <div id="slide1" class="carousel-item w-full">
             <div class="card w-full lg:card-side bg-base-100 shadow-xl">
               <figure>
-                <img
-                  src="https://api.lorem.space/image/album?w=400&h=400"
-                  alt="Album"
-                />
+                <img src="./img/aq.png" alt="adventure quest" />
               </figure>
               <div class="card-body">
-                <h2 class="card-title">New album is released!</h2>
-                <p>Click the button to listen on Spotiwhy app.</p>
+                <h2 class="card-title">Adventure Quest</h2>
+                <p>Single player, interactive, datadriven fantasy game</p>
                 <div class="card-actions justify-end">
-                  <button class="btn btn-primary">Listen</button>
+                  <a
+                    target="_blank"
+                    href="https://github.com/sharkby7e/adventureQuest"
+                  >
+                    <button href="" class="btn btn-primary">repo</button>
+                  </a>
+                  <a
+                    target="_blank"
+                    href="https://warm-falls-71074.herokuapp.com/"
+                  >
+                    <button href="" class="btn btn-primary">live</button>
+                  </a>
                 </div>
               </div>
             </div>
           </div>
 
-          <div id="slide1" class="carousel-item w-full">
+          <!-- second card -->
+          <div id="slide2" class="carousel-item w-full">
             <div class="card w-full lg:card-side bg-base-100 shadow-xl">
               <figure>
-                <img
-                  src="https://api.lorem.space/image/album?w=400&h=400"
-                  alt="Album"
-                />
+                <img src="./img/tt.png" alt="tech today" />
               </figure>
               <div class="card-body">
-                <h2 class="card-title">New album is released!</h2>
-                <p>Click the button to listen on Spotiwhy app.</p>
+                <h2 class="card-title">Tech Today</h2>
+                <p>A blog for all the tech junkies to get their cyber on!</p>
                 <div class="card-actions justify-end">
-                  <button class="btn btn-primary">Listen</button>
+                  <a
+                    target="_blank"
+                    href="https://github.com/sharkby7e/techToday"
+                  >
+                    <button href="" class="btn btn-primary">repo</button>
+                  </a>
+                  <a
+                    target="_blank"
+                    href="https://intense-beyond-77466.herokuapp.com/"
+                  >
+                    <button href="" class="btn btn-primary">live</button>
+                  </a>
                 </div>
               </div>
             </div>
           </div>
+
+          <!-- third card -->
+          <div id="slide3" class="carousel-item w-full">
+            <div class="card w-full lg:card-side bg-base-100 shadow-xl">
+              <figure>
+                <img src="./img/nt.png" alt="note taker" />
+              </figure>
+              <div class="card-body">
+                <h2 class="card-title">Note Taker</h2>
+                <p>A full stack Note taking app for the coder on the go!</p>
+                <div class="card-actions justify-end">
+                  <a
+                    target="_blank"
+                    href="https://github.com/sharkby7e/noteTaker"
+                  >
+                    <button href="" class="btn btn-primary">repo</button>
+                  </a>
+                  <a
+                    target="_blank"
+                    href="https://fathomless-fjord-18353.herokuapp.com/"
+                  >
+                    <button href="" class="btn btn-primary">live</button>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="flex justify-center w-full py-2 gap-2">
+          <a href="#slide1" class="btn btn-xs">.</a>
+          <a href="#slide2" class="btn btn-xs">.</a>
+          <a href="#slide3" class="btn btn-xs">.</a>
         </div>
         <!-- end of carousel -->
       </section>
