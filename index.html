@@ -1,197 +1,152 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <title></title>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <link href="./dist/css/tailwind.css" rel="stylesheet" />
-    <!-- <script src="https://cdn.tailwindcss.com"></script> -->
-  </head>
-  <body class="font-mono">
-    <!-- <h1 class="text-3xl font-bold underline">Hello world!</h1> -->
 
-    <div
-      class="hero min-h-screen"
-      style="background-image: url(./public/img/glacier.jpg)"
-    >
-      <div class="hero-overlay bg-opacity-60"></div>
-      <div class="hero-content text-center text-neutral-content">
-        <div class="max-w-md">
-          <h1 class="mb-5 text-5xl font-bold">sharkby7e</h1>
-          <p class="mb-5">
-            A determined and eternal lover of learning. Looking to find the
-            answers hidden within the problems. Ravenously subsuming all that
-            they can into an ever-expanding library of tools, solutions, and
-            neat projects.
-          </p>
-        </div>
+<head>
+  <title></title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link href="./dist/css/tailwind.css" rel="stylesheet" />
+  <!-- <script src="https://cdn.tailwindcss.com"></script> -->
+</head>
+
+<body class="font-mono">
+  <!-- <h1 class="text-3xl font-bold underline">Hello world!</h1> -->
+
+  <div class="hero min-h-screen" style="background-image: url(./public/img/glacier.jpg)">
+    <div class="hero-overlay bg-opacity-60"></div>
+    <div class="hero-content text-center text-neutral-content">
+      <div class="max-w-md">
+        <h1 class="mb-5 text-5xl font-bold">sharkby7e</h1>
+        <p class="mb-5">
+          A determined and eternal lover of learning. Looking to find the
+          answers hidden within the problems. Ravenously subsuming all that
+          they can into an ever-expanding library of tools, solutions, and
+          neat projects.
+        </p>
       </div>
     </div>
+  </div>
 
-    <!-- Begin Navbar -->
-    <div id="navbar" class="sticky top-0 navbar bg-neutral">
-      <div class="z-50 navbar-start">
-        <div class="z-50 dropdown">
-          <label tabindex="0" class="btn btn-ghost lg:hidden">
-            <svg
-              xmlns="http://www.w3.org/2000/svg"
-              class="h-5 w-5"
-              fill="none"
-              viewBox="0 0 24 24"
-              stroke="currentColor"
-            >
-              <path
-                stroke-linecap="round"
-                stroke-linejoin="round"
-                stroke-width="2"
-                d="M4 6h16M4 12h8m-8 6h16"
-              />
-            </svg>
-          </label>
-          <ul
-            tabindex="0"
-            class="z-50 menu menu-compact dropdown-content mt-3 p-2 shadow bg-base-100 rounded-box w-52"
-          >
-            <li class="z-50">
-              <a href="https://github.com/sharkby7e" target="_blank">gitHub</a>
-            </li>
-            <li class="z-50">
-              <a
-                href="https://www.linkedin.com/in/sid-quinsaat-456b10143/"
-                target="_blank"
-                >linkedIn</a
-              >
-            </li>
-            <li class="z-50">
-              <a href="./SQuinsaat - Resume.pdf" target="_blank">resume</a>
-            </li>
-          </ul>
-        </div>
-        <a class="font-mono btn btn-ghost normal-case text-xl">sidQuinsaat</a>
-      </div>
-      <div class="z-50 navbar-end hidden lg:flex">
-        <ul class="z-50 menu menu-horizontal p-0">
+  <!-- Begin Navbar -->
+  <div id="navbar" class="sticky top-0 navbar bg-neutral">
+    <div class="z-50 navbar-start">
+      <div class="z-50 dropdown">
+        <label tabindex="0" class="btn btn-ghost lg:hidden">
+          <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h8m-8 6h16" />
+          </svg>
+        </label>
+        <ul tabindex="0" class="z-50 menu menu-compact dropdown-content mt-3 p-2 shadow bg-base-100 rounded-box w-52">
           <li class="z-50">
             <a href="https://github.com/sharkby7e" target="_blank">gitHub</a>
           </li>
           <li class="z-50">
-            <a
-              href="https://www.linkedin.com/in/sid-quinsaat-456b10143/"
-              target="_blank"
-              >linkedIn</a
-            >
-          </li class="z-50">
-          <li><a href="./SQuinsaat - Resume.pdf" target="_blank">resume</a></li>
+            <a href="https://www.linkedin.com/in/sid-quinsaat-456b10143/" target="_blank">linkedIn</a>
+          </li>
+          <li class="z-50">
+            <a href="./public/SQuinsaat - Resume.pdf" target="_blank">resume</a>
+          </li>
         </ul>
       </div>
+      <a class="font-mono btn btn-ghost normal-case text-xl">sidQuinsaat</a>
     </div>
-    <!-- end navbar -->
+    <div class="z-50 navbar-end hidden lg:flex">
+      <ul class="z-50 menu menu-horizontal p-0">
+        <li class="z-50">
+          <a href="https://github.com/sharkby7e" target="_blank">gitHub</a>
+        </li>
+        <li class="z-50">
+          <a href="https://www.linkedin.com/in/sid-quinsaat-456b10143/" target="_blank">linkedIn</a>
+        </li class="z-50">
+        <li><a href="./public/SQuinsaat - Resume.pdf" target="_blank">resume</a></li>
+      </ul>
+    </div>
+  </div>
+  <!-- end navbar -->
 
-    <!-- second page -->
-    <div
-      id="firstSec"
-      class="flex-col items-stretch h-screen bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500"
-    >
-      <h2 class="p-5 text-5xl">Portfolio</h2>
-      <section class="flex-col p-5 m-10 h-4/5 bg-neutral rounded-3xl">
-        <!-- beginning of carousel  -->
-        <div class="carousel w-full">
-          <!-- first card  -->
-          <div id="slide1" class="carousel-item w-full">
-            <div class="card w-full lg:card-side bg-base-100 shadow-xl">
-              <figure>
-                <img src="./public/img/aq.png" alt="adventure quest" />
-              </figure>
-              <div class="card-body">
-                <h2 class="card-title">Adventure Quest</h2>
-                <p>Single player, interactive, datadriven fantasy game</p>
-                <div class="card-actions justify-end">
-                  <a
-                    target="_blank"
-                    href="https://github.com/sharkby7e/adventureQuest"
-                  >
-                    <button href="" class="btn btn-primary">repo</button>
-                  </a>
-                  <a
-                    target="_blank"
-                    href="https://adventurequest.herokuapp.com/"
-                  >
-                    <button href="" class="btn btn-primary">live</button>
-                  </a>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <!-- second card -->
-          <div id="slide2" class="carousel-item w-full">
-            <div class="card w-full lg:card-side bg-base-100 shadow-xl">
-              <figure>
-                <img src="./public/img/tt.png" alt="tech today" />
-              </figure>
-              <div class="card-body">
-                <h2 class="card-title">Tech Today</h2>
-                <p>A blog for all the tech junkies to get their cyber on!</p>
-                <div class="card-actions justify-end">
-                  <a
-                    target="_blank"
-                    href="https://github.com/sharkby7e/techToday"
-                  >
-                    <button href="" class="btn btn-primary">repo</button>
-                  </a>
-                  <a
-                    target="_blank"
-                    href="https://tech-today.herokuapp.com/"
-                  >
-                    <button href="" class="btn btn-primary">live</button>
-                  </a>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <!-- third card -->
-          <div id="slide3" class="carousel-item w-full">
-            <div class="card w-full lg:card-side bg-base-100 shadow-xl">
-              <figure>
-                <img src="./public/img/nt.png" alt="note taker" />
-              </figure>
-              <div class="card-body">
-                <h2 class="card-title">Note Taker</h2>
-                <p>A full stack Note taking app for the coder on the go!</p>
-                <div class="card-actions justify-end">
-                  <a
-                    target="_blank"
-                    href="https://github.com/sharkby7e/noteTaker"
-                  >
-                    <button href="" class="btn btn-primary">repo</button>
-                  </a>
-                  <a
-                    target="_blank"
-                    href="https://fathomless-fjord-18353.herokuapp.com/"
-                  >
-                    <button href="" class="btn btn-primary">live</button>
-                  </a>
-                </div>
+  <!-- second page -->
+  <div id="firstSec"
+    class="flex-col items-stretch h-screen bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500">
+    <h2 class="p-5 text-5xl">Portfolio</h2>
+    <section class="flex-col p-5 m-10 h-4/5 bg-neutral rounded-3xl">
+      <!-- beginning of carousel  -->
+      <div class="carousel w-full">
+        <!-- first card  -->
+        <div id="slide1" class="carousel-item w-full">
+          <div class="card w-full lg:card-side bg-base-100 shadow-xl">
+            <figure>
+              <img src="./public/img/aq.png" alt="adventure quest" />
+            </figure>
+            <div class="card-body">
+              <h2 class="card-title">Adventure Quest</h2>
+              <p>Single player, interactive, datadriven fantasy game</p>
+              <div class="card-actions justify-end">
+                <a target="_blank" href="https://github.com/sharkby7e/adventureQuest">
+                  <button href="" class="btn btn-primary">repo</button>
+                </a>
+                <a target="_blank" href="https://adventurequest.herokuapp.com/">
+                  <button href="" class="btn btn-primary">live</button>
+                </a>
               </div>
             </div>
           </div>
         </div>
-        <div class="flex justify-center w-full py-2 gap-2">
-          <a href="#slide1" class="btn btn-xs">.</a>
-          <a href="#slide2" class="btn btn-xs">.</a>
-          <a href="#slide3" class="btn btn-xs">.</a>
-        </div>
-        <!-- end of carousel -->
-      </section>
-    </div>
-  </body>
-  <!-- //jquery -->
-  <script
-    src="https://code.jquery.com/jquery-3.6.0.js"
-    integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk="
-    crossorigin="anonymous"
-  ></script>
 
-  <!-- //custom script -->
+        <!-- second card -->
+        <div id="slide2" class="carousel-item w-full">
+          <div class="card w-full lg:card-side bg-base-100 shadow-xl">
+            <figure>
+              <img src="./public/img/tt.png" alt="tech today" />
+            </figure>
+            <div class="card-body">
+              <h2 class="card-title">Tech Today</h2>
+              <p>A blog for all the tech junkies to get their cyber on!</p>
+              <div class="card-actions justify-end">
+                <a target="_blank" href="https://github.com/sharkby7e/techToday">
+                  <button href="" class="btn btn-primary">repo</button>
+                </a>
+                <a target="_blank" href="https://tech-today.herokuapp.com/">
+                  <button href="" class="btn btn-primary">live</button>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- third card -->
+        <div id="slide3" class="carousel-item w-full">
+          <div class="card w-full lg:card-side bg-base-100 shadow-xl">
+            <figure>
+              <img src="./public/img/nt.png" alt="note taker" />
+            </figure>
+            <div class="card-body">
+              <h2 class="card-title">Note Taker</h2>
+              <p>A full stack Note taking app for the coder on the go!</p>
+              <div class="card-actions justify-end">
+                <a target="_blank" href="https://github.com/sharkby7e/noteTaker">
+                  <button href="" class="btn btn-primary">repo</button>
+                </a>
+                <a target="_blank" href="https://fathomless-fjord-18353.herokuapp.com/">
+                  <button href="" class="btn btn-primary">live</button>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="flex justify-center w-full py-2 gap-2">
+        <a href="#slide1" class="btn btn-xs">.</a>
+        <a href="#slide2" class="btn btn-xs">.</a>
+        <a href="#slide3" class="btn btn-xs">.</a>
+      </div>
+      <!-- end of carousel -->
+    </section>
+  </div>
+</body>
+<!-- //jquery -->
+<script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk="
+  crossorigin="anonymous"></script>
+
+<!-- //custom script -->
+
 </html>
